@@ -1,0 +1,135 @@
+body {
+  background-color: aqua;
+}
+
+div.bottom {
+  display: flex;
+  overflow: auto;
+}
+
+div.top-half {
+  /* height: 30%;
+  border-radius: 10%; */
+
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.bottom {
+  background-color: white;
+  border-radius: 2%;
+}
+div.sections {
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: justify;
+  margin-right: 42%;
+  margin-left: 2%;
+  overflow: scroll;
+  flex: 70%;
+  width: 65%;
+}
+
+/* Retrieved 'button' css from Abram Hindle - https://softwareprocess.es/homepage/ */
+.navBar {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.navBar li {
+  display: inline-block;
+  margin-right: 4%;
+}
+.navBar a {
+  text-decoration: none;
+  background: #eee;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: black;
+  font-family: "Noto Serif Display", serif;
+  font-weight: bolder;
+}
+
+img.fig {
+  width: 150px;
+  height: auto;
+  box-shadow: -2px 8px 15px 4px rgba(0, 0, 0, 0.31);
+  border-radius: 50%;
+  margin-right: 2em;
+  margin-left: 10px;
+  position: relative;
+}
+
+div.sidebar {
+  background-color: #eee;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  flex: 30%;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  width: 35%;
+  border-radius: 2%;
+}
+
+h1.pageTitle {
+  position: relative;
+  font-weight: bolder;
+}
+h1,
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  /*title*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 400%;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.12em;
+  word-spacing: 0.2em;
+  text-indent: 0em;
+  text-shadow: -10px -2px 4px rgba(0, 0, 0, 0.1);
+  font-style: normal;
+}
+h2 {
+  font-size: 200%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 50px;
+  text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.25);
+  font-family: "Noto Serif Display", serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 2em;
+  margin-top: 1em;
+  margin-bottom: 5em;
+  line-height: 200%;
+}
+p.sidebar {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  line-height: 100%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}

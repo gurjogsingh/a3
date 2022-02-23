@@ -1,0 +1,163 @@
+body {
+  background-image: url(https://i.stack.imgur.com/kb0Zm.jpg);
+  height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: justify;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+h5 {
+  text-align: center;
+}
+h1 {
+  /*title*/
+  font-family: "IBM Plex Serif", serif;
+  font-size: 400%;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.12em;
+  word-spacing: 0.2em;
+  text-indent: 0em;
+  text-shadow: -10px -2px 4px rgba(0, 0, 0, 0.33);
+}
+h2 /*content/chapter headers*/ {
+  font-size: 200%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 100px;
+  text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.33);
+  font-family: "Noto Serif Display", serif;
+}
+
+.no-break {
+  page-break-before: avoid;
+} /* for epubs */
+
+hr {
+  width: 80%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+div.chapter {
+  page-break-before: avoid;
+  margin-top: 4em;
+}
+
+table {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+tr.title {
+  line-height: 100%;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+tr.content {
+  line-height: 200%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 2em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+  line-height: 200%;
+}
+
+p.poem {
+  text-indent: 0%;
+  font-size: 90%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-style: italic;
+  text-align: center;
+}
+
+p.letter {
+  text-indent: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+p.noindent {
+  text-indent: 0%;
+}
+
+p.center {
+  text-align: center;
+  text-indent: 0em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+p.content {
+  line-height: 200%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+pre {
+  font-style: italic;
+  font-size: 90%;
+  line-height: 200%;
+  text-align: center;
+}
+
+div.fig {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  -webkit-box-shadow: -2px 8px 15px 4px rgba(0, 0, 0, 0.31);
+  box-shadow: -2px 8px 15px 4px rgba(0, 0, 0, 0.31);
+  font-style: italic;
+}
+div.caption {
+  font-size: 200%;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 100px;
+  font-family: "Noto Serif Display", serif;
+}
+
+div.figleft {
+  float: left;
+  margin-left: 0%;
+  margin-right: 1%;
+}
+div.figright {
+  float: right;
+  margin-right: 0%;
+  margin-left: 1%;
+}
+a.enlarge {
+  align-content: center;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: grey;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}

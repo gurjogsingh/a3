@@ -1,0 +1,160 @@
+div.bottom {
+  display: flex;
+  overflow: auto;
+}
+
+body {
+  background: linear-gradient(
+    45deg,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet,
+    red
+  );
+}
+
+div.top {
+  background-color: blue;
+}
+div.top-half {
+  /* height: 30%;
+    border-radius: 10%; */
+
+  padding-top: 35px;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+div.bottom {
+  background-color: white;
+}
+div.sections {
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: justify;
+  margin-right: 42%;
+  margin-left: 2%;
+  overflow: scroll;
+  flex: 70%;
+  width: 65%;
+}
+
+/* Retrieved 'button' css from Abram Hindle - https://softwareprocess.es/homepage/ */
+.navBar {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.navBar li {
+  display: inline-block;
+  margin-right: 0;
+}
+.navBar a {
+  text-decoration: none;
+  background: goldenrod;
+  padding: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-decoration: black;
+  font-family: "Comic Neue", cursive;
+  font-weight: bolder;
+  text-shadow: 10px;
+}
+
+img.fig {
+  width: 250px;
+  height: auto;
+  margin-right: 2em;
+  margin-left: 10px;
+  position: relative;
+  box-shadow: -23px 20px 50px 4px rgba(0, 0, 0, 1);
+}
+
+div.sidebar {
+  background-color: rgb(255, 0, 221);
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+  flex: 30%;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  width: 35%;
+}
+
+h1.pageTitle {
+  position: relative;
+  /* Rahul - Jan 31 2019 - https://w3bits.com/rainbow-text/ */
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  /*title*/
+  font-family: "Comic Neue", cursive;
+  font-weight: bolder;
+  font-size: 400%;
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  letter-spacing: 0.12em;
+  word-spacing: 0.2em;
+  text-indent: 0em;
+}
+h2 {
+  font-size: 200%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 50px;
+  color: green;
+  font-family: "Comic Neue", cursive;
+}
+
+p {
+  font-family: "Comic Neue", cursive;
+  text-indent: 2em;
+  margin-top: 1em;
+  margin-bottom: 5em;
+}
+p.sidebar {
+  font-family: "Comic Neue", cursive;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  line-height: 100%;
+  color: green;
+  font-weight: bolder;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
