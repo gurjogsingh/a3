@@ -30,7 +30,6 @@ div.sections {
   text-align: justify;
   margin-right: 42%;
   margin-left: 2%;
-  overflow: scroll;
   flex: 70%;
   width: 65%;
 }
