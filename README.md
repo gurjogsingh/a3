@@ -36,12 +36,13 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
-Content is copyright Gurjog Singh (C) 2022 under the CC-BY-SA
+This work is copyright Gurjog Singh (C) 2022 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2022 Gurjog Singh visibile in the text.
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-ode is licensed under the Apache 2.0 license.
+Code is licensed under the Apache 2.0 license.
 
 Retrieved 'button' css from Abram Hindle - https://softwareprocess.es/homepage/
 
-Retrieved gradient text color tutorial from Rahul - Jan 31 2019 - https://w3bits.com/rainbow-text/
+Retrieved gradient text color tutorial from Rahul (© 2012-2019 W3Bits) - Jan 31 2019 - https://w3bits.com/rainbow-text/
